@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Domine";
+  src: url(../fonts/Domine/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+  /* colors */
+  --prime-grey: #605b50;
+  --secondary-grey: #b3a597;
+  --tertiary-grey: #e6ded2;
+  --prime-sand: #d2c3b4;
+  --prime-white: #f4f1ec;
+
+  /* font sizes 
+  --p-size: 12px;
+  --nav-li-size: 20px;
+  */
+
+  /* fonts */
+  --font-primary: "Domine";
+  --font-secondary: "Montserrat";
+}
+
+/*Custom Css*/
