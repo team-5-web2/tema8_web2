@@ -1,16 +1,21 @@
 .footer img {
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .flex_1-1 {
   display: flex;
   justify-content: space-between;
-  margin: 0em 4em 0em 2em;
+  margin: 2em;
+  
+}
+.Kontakt{
+  padding: 2em;
+  
 }
 
 footer {
   background-color: #d2c3b4;
-  padding: 4em;
+  
 }
 
 img {
@@ -20,7 +25,7 @@ img {
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2em;
+  gap: 1em;
   margin-bottom: 10em;
   margin-top: 5em;
 }
