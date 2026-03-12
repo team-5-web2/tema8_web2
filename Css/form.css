@@ -1,0 +1,134 @@
+#webform {
+  background-color: var(--form-background-color);
+}
+
+#form-section,
+#form-summary {
+  background-color: var(--info-background-color);
+  padding: 0;
+}
+
+#form-summary article {
+  background-color: white;
+  margin: 3em;
+}
+
+/* #form-summary h2 {
+  line-height: 3rem;
+  text-align: center;
+  background-color: var(--headline-bg-color-inverted);
+  color: var(--headline-color-inverted);
+  padding-top: 5px;
+}
+#form-summary h3 {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+#form-summary > *:not(:first-child) {
+  margin: 0 clamp(1rem, 10%, 7rem);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+html {
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: max(1em, 16px);
+  padding: 0;
+  margin: 0;
+}
+
+input:where([type="checkbox"], [type="radio"]) {
+  width: 1em;
+  height: 1em;
+}
+
+.space {
+  padding-top: 1em;
+  accent-color: #ad8a7b;
+}
+
+input:not([role="switch"]),
+textarea,
+fieldset {
+  border: 1px solid #000000;
+  padding: 0.25rlh;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px #0001;
+}
+
+button {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.25rlh 0.5rlh;
+  cursor: pointer;
+}
+
+.error-message {
+  display: none;
+}
+.form-group:has(:required) {
+  label::after {
+    content: " *";
+    color: #ff0000;
+  }
+}
+
+.required-fieldset legend::after {
+  content: " *";
+  color: #ff0000;
+  
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.form-group:has(:user-invalid) {
+  input {
+    outline: 2px solid #ff0000;
+  }
+  .error-message {
+    display: block;
+  }
+}
+
+button:hover {
+  background: #b38a6f;
+}
+
+button:active {
+  scale: 0.98;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  padding-left: 2em;
+  padding-top: 4em;
+  padding-bottom: 6em;
+}
