@@ -28,6 +28,7 @@ main h2 {
 
 figure {
   display: flex;
+  justify-content: center;
 }
 
 figure .produktimg {
@@ -58,7 +59,7 @@ figure .produktimg {
   width: 90%;
   margin: 0 auto;
   margin-top: 15%;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .details h2 {
@@ -69,12 +70,12 @@ figure .produktimg {
 }
 
 .details p {
-  font-family: "Iowan";
+  font-family: "Montserrat";
   font-size: 12px;
   line-height: 150%;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* Discount */
@@ -93,12 +94,31 @@ figure .produktimg {
 }
 
 .discounted p {
-  font-family: "Iowan";
+  font-family: "Montserrat";
   font-size: 12px;
   line-height: 150%;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-weight: 300;
+}
+/* button: læg i kurv */
+
+.discounted button {
+  background-color: var(--secondary-grey);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 6%;
+  border: solid var(--prime-grey) 1px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 150%;
   font-weight: 400;
+}
+
+.discounted button:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
 }
 
 /* Beskrivelse */
@@ -109,7 +129,7 @@ figure .produktimg {
 }
 
 .productInformation p {
-  font-family: "Iowan";
+  font-family: "Montserrat";
   font-size: 12px;
   line-height: 250%;
   padding-bottom: 1rem;
