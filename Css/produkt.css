@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--prime-white);
+}
+/*Layout*/
+
+#productContainer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+
+/* Overskrift*/
+
+main h2 {
+  font-family: "Montserrat";
+  font-size: 64;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+/*styling af billedet*/
+
+figure {
+  display: flex;
+}
+
+figure .produktimg {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15%;
+  padding-bottom: 2rem;
+}
+
+/* Produktdetaljer */
+
+.productDetails h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.productDetails p {
+  font-family: "Domine";
+  font-size: 12;
+  line-height: 150%;
+}
+/* Beskrivelse */
