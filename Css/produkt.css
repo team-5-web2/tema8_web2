@@ -6,6 +6,7 @@
 body {
   background-color: var(--prime-white);
 }
+
 /*Layout*/
 
 #productContainer {
@@ -18,7 +19,7 @@ body {
 
 main h2 {
   font-family: "Montserrat";
-  font-size: 64;
+  font-size: 20px;
   line-height: 150%;
   font-weight: 400;
 }
@@ -38,15 +39,78 @@ figure .produktimg {
 
 /* Produktdetaljer */
 
-.productDetails h2 {
+.productDetails h3 {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 12px;
   line-height: 150%;
+  font-weight: 400;
 }
 
 .productDetails p {
-  font-family: "Domine";
-  font-size: 12;
+  font-family: "Iowan";
+  font-size: 12px;
   line-height: 150%;
+  padding-bottom: 1rem;
 }
+
+.details {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15%;
+  padding-bottom: 2rem;
+}
+
+.details h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.details p {
+  font-family: "Iowan";
+  font-size: 12px;
+  line-height: 150%;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+
+/* Discount */
+
+.discounted {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.discounted h2 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.discounted p {
+  font-family: "Iowan";
+  font-size: 12px;
+  line-height: 150%;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+
 /* Beskrivelse */
+.productInformation {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.productInformation p {
+  font-family: "Iowan";
+  font-size: 12px;
+  line-height: 250%;
+  padding-bottom: 1rem;
+}
