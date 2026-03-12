@@ -75,7 +75,7 @@ figure .produktimg {
   line-height: 150%;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 /* Discount */
@@ -99,9 +99,9 @@ figure .produktimg {
   line-height: 150%;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  font-weight: 400;
+  font-weight: 200;
 }
-/* læg i kurv */
+/* button: læg i kurv */
 
 .discounted button {
   background-color: var(--secondary-grey);
@@ -109,6 +109,12 @@ figure .produktimg {
   margin-top: 1rem;
   border-radius: 6%;
   border: solid var(--prime-grey) 1px;
+}
+
+.discounted button:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
 }
 
 /* Beskrivelse */
