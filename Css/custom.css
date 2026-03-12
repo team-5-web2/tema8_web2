@@ -8,6 +8,11 @@
   src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Iowan";
+  src: url(../fonts/iowanoldstyle_bold.otf);
+}
+
 :root {
   /* colors */
   --prime-grey: #605b50;
@@ -24,6 +29,7 @@
   /* fonts */
   --font-primary: "Domine";
   --font-secondary: "Montserrat";
+  --font-tertiary: "Iowan";
 }
 
 /*Custom Css*/
