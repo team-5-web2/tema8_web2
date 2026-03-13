@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  paddinq: 0;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -49,4 +53,14 @@ header.scrolled {
 .kurv:hover {
   color: white;
   transition: background-color 0.3s ease;
+}
+
+/* Hero image */
+
+.hero-image img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 50%;
 }
