@@ -75,12 +75,17 @@ header.scrolled {
 }
 
 /* COntent section - cards */
+.cards {
+  margin-top: 6rem;
+}
 
 .content {
   margin: 2rem;
   width: 80%;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .content p {
