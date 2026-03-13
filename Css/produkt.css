@@ -110,6 +110,7 @@ figure .produktimg {
   line-height: 150%;
   font-weight: 400;
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .productDetails button:hover {
@@ -130,4 +131,38 @@ figure .produktimg {
   font-size: 12px;
   line-height: 250%;
   padding-bottom: 1rem;
+}
+
+/* Resonsivt */
+
+@media screen and (min-width: 780px) {
+  figure {
+    display: block;
+  }
+
+  figure .produktimg {
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  #productContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+
+  .productDetails {
+    margin: 2rem;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
+  }
+
+  .productInformation {
+    grid-column: 2 / span 3;
+  }
 }
