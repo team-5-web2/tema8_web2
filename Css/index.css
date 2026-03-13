@@ -74,9 +74,23 @@ header.scrolled {
   height: 50%;
 }
 
-/* COntent section - cards */
+/* Content section - cards */
 .cards {
   margin-top: 6rem;
+}
+.headline {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.headline h1 {
+  font-family: "Montserrat";
+  font-size: 32px;
+  line-height: 150%;
+  font-weight: 400;
+  margin: 0 auto;
 }
 
 .content {
@@ -85,7 +99,7 @@ header.scrolled {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .content p {
@@ -97,5 +111,5 @@ header.scrolled {
 }
 
 .content img {
-  width: 30%;
+  width: 40%;
 }
