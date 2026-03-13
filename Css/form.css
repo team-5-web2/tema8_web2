@@ -1,13 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .form_billede {
   max-width: 70%;
   place-self: center;
   padding-top: 2em;
 }
 
-
-
-form{
-    margin-left: 4.5em;
+form {
+  margin-left: 4.5em;
 }
 
 input,
@@ -147,4 +150,3 @@ button:active {
   padding-top: 4em;
   padding-bottom: 6em;
 }
-
