@@ -12,12 +12,13 @@
   justify-content: space-between;
   margin: 2em;
 }
-.Kontakt {
-  padding: 2em;
+.Kontakt div {
+  padding-top: 1em;
 }
 
 footer {
   background-color: #d2c3b4;
+  padding: 2em;
 }
 
 img {
