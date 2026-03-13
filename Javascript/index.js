@@ -7,3 +7,15 @@ window.addEventListener("scroll", () => {
     header.classList.remove("scrolled");
   }
 });
+
+const burger = document.querySelector(".burger");
+const mobileNav = document.querySelector(".mobile-nav");
+
+burger.addEventListener("click", () => {
+  mobileNav.classList.toggle("open");
+});
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 800) {
+    mobileNav.classList.remove("open");
+  }
+});
