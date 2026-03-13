@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*general styling */
+
+main {
+  background-color: var(--prime-white);
+}
+
+/* Basket section */
+
+.basket {
+  margin-top: 25%;
+  padding-left: 5%;
+}
+
+.basket h2 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
