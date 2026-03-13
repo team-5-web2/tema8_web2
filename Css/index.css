@@ -49,7 +49,9 @@ header.scrolled {
   transform: scale(1.1);
 }
 
-.logo {
+.logo img {
+  height: 60px; /* justér størrelsen */
+  width: auto;
 }
 
 .kurv {
