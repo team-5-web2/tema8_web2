@@ -1,7 +1,16 @@
 * {
   margin: 0;
-  paddinq: 0;
+  padding: 0;
 }
+
+/* general styling */
+
+body {
+  background-color: var(--prime-white);
+}
+
+/* nav */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -63,4 +72,25 @@ header.scrolled {
   background-repeat: no-repeat;
   position: relative;
   height: 50%;
+}
+
+/* COntent section - cards */
+
+.content {
+  margin: 2rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.content p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  margin: 2rem;
+}
+
+.content img {
+  width: 30%;
 }
