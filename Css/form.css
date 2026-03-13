@@ -1,13 +1,18 @@
 .form_billede {
   max-width: 70%;
   place-self: center;
-  padding-top: 2em;
+  padding-top: 8em;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
 
-
-form{
-    margin-left: 4.5em;
+form {
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 18%;
 }
 
 input,
@@ -27,7 +32,7 @@ textarea {
 
 #form-summary article {
   background-color: white;
-  margin: 3em;
+  margin: 0 auto;
 }
 
 /* #form-summary h2 {
@@ -144,7 +149,15 @@ button:active {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #fff;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 6em;
 }
 
+/* Resonsivt */
+
+@media screen and (min-width: 780px) {
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
