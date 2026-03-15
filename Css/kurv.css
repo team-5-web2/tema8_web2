@@ -98,6 +98,9 @@ main {
   font-weight: 400;
 }
 
+.total p {
+  padding-right: 2rem;
+}
 /* Gå til betaling knap */
 
 .checkout {
