@@ -97,13 +97,30 @@ figure .produktimg {
   padding-left: 1rem;
   font-weight: 300;
 }
+
+/* Quantity */
+
+.quantity {
+  font-family: "Montserrat";
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity p {
+  font-family: "Montserrat";
+}
+
+.quantity button {
+}
+
 /* button: læg i kurv */
 
 .productDetails button {
   background-color: var(--secondary-grey);
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
-  border-radius: 6%;
   border: solid var(--prime-grey) 1px;
   font-family: "Montserrat";
   font-size: 12px;
@@ -141,14 +158,20 @@ figure .produktimg {
   }
 
   figure .produktimg {
-    width: 40%;
+    width: 35%;
     margin-top: 5%;
+    margin-bottom: 4rem;
+  }
+
+  .details {
+    margin-top: 30%;
   }
 
   #productContainer {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
   }
 
   .image {
