@@ -32,13 +32,13 @@ img {
   gap: 1em;
   margin: 2em;
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 15px;
   line-height: 150%;
   font-weight: 400;
 }
 
 .grid_1-1-1 p {
-  margin-top: 0.5em;
+  /*margin-top: 0.5em;*/
 }
 
 h2 {
@@ -68,9 +68,59 @@ button:active {
 
 /* cards */
 .card p {
-  margin-top: 0.5em;
+  /* margin-top: 0.5em;*/
 }
 
 .cardSoldout p {
   margin-top: 0.5em;
+}
+
+/* priser */
+
+.price {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.oldprice {
+  text-decoration: line-through;
+  color: var(--prime-grey);
+}
+
+.newprice {
+  color: red;
+  font-weight: 600;
+}
+
+/* Rabat badge */
+
+.card {
+  position: relative;
+}
+
+.cardSoldout {
+  position: relative;
+  opacity: 0.6;
+  overflow: hidden;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: var(--prime-grey);
+  color: var(--prime-white);
+  padding: 5px 10px;
+}
+
+/* Udsolgt */
+
+.sold {
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  background-color: #000;
+  color: var(--prime-white);
+  padding: 8px 50px;
+  transform: rotate(45deg);
 }
