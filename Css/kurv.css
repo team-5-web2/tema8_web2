@@ -113,7 +113,6 @@ main {
 .checkout {
   padding: 15px 30px;
   background-color: var(--secondary-grey);
-  border-radius: 6%;
   border: solid var(--prime-grey) 1px;
   font-family: "Montserrat";
   font-size: 12px;
