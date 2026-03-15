@@ -113,10 +113,15 @@ main {
 .checkout {
   padding: 15px 30px;
   background-color: var(--secondary-grey);
-  border-radius: 6%;
   border: solid var(--prime-grey) 1px;
   font-family: "Montserrat";
   font-size: 12px;
   line-height: 150%;
   font-weight: 400;
+}
+
+.checkout:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
 }
