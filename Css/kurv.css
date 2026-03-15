@@ -16,7 +16,7 @@ main h2 {
   font-size: 20px;
   line-height: 150%;
   font-weight: 400;
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 
 main p {
@@ -24,12 +24,11 @@ main p {
   font-size: 20px;
   line-height: 150%;
   font-weight: 400;
-  margin-left: 4rem;
+  padding-left: 2rem;
   padding-bottom: 0.5rem;
 }
 
 main {
-  width: 85%;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -40,11 +39,11 @@ main {
   margin-bottom: 2rem;
 }
 .cart {
-  width: 85%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 120px 1fr auto;
-  gap: 20px;
+  gap: 2px;
+  padding-right: 10%;
 }
 
 .cart h2 {
@@ -55,14 +54,15 @@ main {
 }
 .cart p {
   font-family: "Montserrat";
-  font-size: 18px;
+  font-size: 15px;
   line-height: 150%;
   font-weight: 400;
 }
 
 .buyproductimg img {
-  width: 120px;
+  width: 60px;
   height: auto;
+  padding-left: 25%;
 }
 
 /* Quantity */
@@ -71,7 +71,8 @@ main {
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5%;
+  padding-right: 15%;
 }
 
 .quantity button {
@@ -80,9 +81,16 @@ main {
   border: none;
 }
 
+.quantity button:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
+}
+
 .price {
   grid-template-columns: auto auto;
   justify-content: end;
+  padding-right: 15%;
 }
 
 /* Price */
@@ -94,20 +102,21 @@ main {
 /* total */
 
 .total {
-  width: 95%;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: end;
   gap: 10px;
   font-family: "Montserrat";
-  font-size: 18px;
+  font-size: 15px;
   line-height: 150%;
   font-weight: 400;
+  padding-right: 10%;
 }
 
 .total p {
   padding-right: 2rem;
 }
+
 /* Gå til betaling knap */
 
 .checkout {
@@ -124,4 +133,46 @@ main {
   background-color: var(--prime-grey);
   color: white;
   border: solid var(--secondary-grey) 1px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 780px) {
+  main {
+    width: 85%;
+  }
+
+  main h2 {
+    margin-left: 4rem;
+  }
+
+  main p {
+    padding-left: 4rem;
+  }
+
+  .quantity {
+    margin-top: 15%;
+  }
+  .cart {
+    width: 85%;
+  }
+  .cart p {
+    font-size: 18px;
+  }
+  .price {
+    padding-right: 0%;
+  }
+  .total {
+    width: 85%;
+    font-size: 18px;
+  }
+
+  .buyproductimg img {
+    width: 120px;
+    padding-left: 0%;
+  }
+
+  .checkout {
+    padding: 15px 30px;
+  }
 }
