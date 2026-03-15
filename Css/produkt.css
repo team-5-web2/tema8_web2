@@ -159,8 +159,9 @@ figure .produktimg {
   }
 
   figure .produktimg {
-    width: 40%;
+    width: 35%;
     margin-top: 5%;
+    margin-bottom: 4rem;
   }
 
   .details {
