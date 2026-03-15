@@ -2,48 +2,58 @@
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="Css/index.css"
-    />
-    <link
-      rel="stylesheet"
-      href="Css/produkt.css"
-    />
-    <link
-      rel="stylesheet"
-      href="Css/custom.css"
-    />
-    <title>HAUBJERG produkt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/custom.css" />
+    <link rel="stylesheet" href="Css/produkt.css" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <script src="Javascript/index.js" defer></script>
+    <link rel="stylesheet" href="Css/kategori.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <title>HAUBJERG Home</title>
   </head>
   <body>
     <header>
-      <div class="logo">HAUBJERG Home</div>
+      <div class="logo">
+        <a href="index.html"> <img src="img/logo.png" alt="" /></a>
+      </div>
       <nav class="menu">
-        <a href="">Alle kategorier</a>
+        <a href="kategori.html">Alle kategorier</a>
         <a href="kategori.html">Indretning</a>
         <a href="kategori.html">Møbler</a>
         <a href="kategori.html">Køkkenudstyr</a>
         <a href="form.html">Bliv medlem</a>
       </nav>
+
+      <div class="mobile-nav">
+        <a href="kategori.html">Alle kategorier</a>
+        <a href="kategori.html">Indretning</a>
+        <a href="kategori.html">Møbler</a>
+        <a href="kategori.html">Køkkenudstyr</a>
+        <a href="form.html">Bliv medlem</a>
+      </div>
+
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
       <a href="kurv.html"><button class="kurv">Kurv</button></a>
     </header>
 
     <main id="productContainer">
-      <h2>Produkter</h2>
-      <figure>
-        <img
-          class="produktimg"
-          src="img/image 39.png"
-          alt="Produktbillede"
-          class="productImage"
-        />
-      </figure>
-
+      <div class="image">
+        <h2>Produkt:</h2>
+        <figure>
+          <img
+            class="produktimg"
+            src="img/image 39.png"
+            alt="Produktbillede"
+            class="productImage"
+          />
+        </figure>
+      </div>
       <section class="productDetails">
         <div class="details">
           <h3>Produktnavn:</h3>
@@ -52,37 +62,47 @@
 
         <div class="discounted">
           <h3>Pris:</h3>
-          <p class="beforeprice">DKK <span>2499.99</span>,-</p>
-          <h3>Køb nu og få:</h3>
-          <p><span class="discountPercentage">14.4</span>% rabat</p>
-          <h3>Din pris:</h3>
-          <p class="pricen">DKK <span>2499.99</span>,-</p>
-          <h3>Antal:</h3>
-          <button class="buyButton">Læg i kurv</button>
+          <p class="beforeprice"><span>2499.99</span>,- DKK</p>
         </div>
-      </section>
-      <section class="productInformation">
-        <h2 class="">Beskrivelse af produktet</h2>
-        <p class="description">
-          The Annibale Colombo Sofa is a sophisticated and comfortable seating
-          option, featuring exquisite design and premium upholstery for your
-          living room.
-        </p>
+        <br />
+        <div class="discounted">
+          <h3>Køb nu og få:</h3>
+          <p><span class="discountPercentage">14.4</span>% Rabat.</p>
+        </div>
+        <br />
+        <div class="discounted">
+          <h3>Din pris:</h3>
+          <p class="price"><span>2499.99</span>,- DKK</p>
+        </div>
+        <br />
+        <div class="discounted">
+          <br />
+          <h3>Antal:</h3>
+          <p class="numbers">- <span>1</span> +</p>
+        </div>
+        <br />
+        <button class="buybutton">Læg i kurv</button>
+        <div class="productInformation">
+          <h2 class="">Beskrivelse af produktet</h2>
+          <p class="description">
+            The Annibale Colombo Sofa is a sophisticated and comfortable seating
+            option, featuring exquisite design and premium upholstery for your
+            living room.
+          </p>
+        </div>
       </section>
     </main>
     <footer>
-      <div class="flex_1-1">
+     <div class="flex_1-1">
         <div class="footer">
-          a<img
-            src="img/image 52.png"
-            alt=""
-          />
+          <img src="img/image 52.png" alt="" />
         </div>
         <div class="Kontakt">
-          <p>Kontakt</p>
-          <p>Tlf: 12345678</p>
+          <div><p>Kontakt</p></div>
+          <div><p>Tlf: 12345678</p></div>
+          <div></div>
           <p>Mail: 1234@1234</p>
-          <p>Adresse: Guldbergsgade 29N</p>
+          <div><p>Adresse: Guldbergsgade 29N</p></div>
         </div>
       </div>
     </footer>

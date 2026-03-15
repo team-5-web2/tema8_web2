@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .footer img {
   max-width: 60%;
 }
@@ -6,16 +11,14 @@
   display: flex;
   justify-content: space-between;
   margin: 2em;
-  
 }
-.Kontakt{
-  padding: 2em;
-  
+.Kontakt div {
+  padding-top: 1em;
 }
 
 footer {
   background-color: #d2c3b4;
-  
+  padding: 2em;
 }
 
 img {
@@ -30,7 +33,7 @@ img {
   margin-top: 5em;
 }
 
-h2{
-    margin-left: 3em;
-    margin-top: 3em;
+h2 {
+  margin-left: 3em;
+  margin-top: 3em;
 }

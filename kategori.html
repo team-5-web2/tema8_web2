@@ -1,61 +1,60 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="Css/kategori.css"
-    />
-    <link
-      rel="stylesheet"
-      href="Css/index.css"
-    />
-    <link
-      rel="stylesheet"
-      href="Css/custom.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/custom.css" />
+    <link rel="stylesheet" href="Css/kategori.css" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <script src="Javascript/index.js" defer></script>
+
+    <title>HAUBJERG Home</title>
   </head>
   <body>
     <header>
-      <div class="logo">HAUBJERG Home</div>
+      <div class="logo">
+        <a href="index.html"> <img src="img/logo.png" alt="" /></a>
+      </div>
       <nav class="menu">
-        <a href="">Alle kategorier</a>
+        <a href="kategori.html">Alle kategorier</a>
         <a href="kategori.html">Indretning</a>
         <a href="kategori.html">Møbler</a>
         <a href="kategori.html">Køkkenudstyr</a>
         <a href="form.html">Bliv medlem</a>
       </nav>
+
+      <div class="mobile-nav">
+        <a href="kategori.html">Alle kategorier</a>
+        <a href="kategori.html">Indretning</a>
+        <a href="kategori.html">Møbler</a>
+        <a href="kategori.html">Køkkenudstyr</a>
+        <a href="form.html">Bliv medlem</a>
+      </div>
+
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
       <a href="kurv.html"><button class="kurv">Kurv</button></a>
     </header>
     <main>
       <h2>Produkter</h2>
       <div class="grid_1-1-1">
         <div>
-          <img
-            src="img/image 38.png"
-            alt=""
-          />
+          <a href="produkt.html"><img src="img/image 38.png" alt="" /></a>
           <p>Produktnav</p>
           <p>Pris</p>
         </div>
         <div>
-          <img
-            src="img/image 39.png"
-            alt=""
-          />
+          <a href="produkt.html"><img src="img/image 39.png" alt="" /></a>
           <p>Produktnav</p>
           <p>Pris</p>
         </div>
         <div>
-          <img
-            src="img/image 41.png"
-            alt=""
-          />
+          <a href="produkt.html"><img src="img/image 41.png" alt="" /></a>
           <p>Produktnav</p>
           <p>Pris</p>
         </div>
@@ -64,16 +63,14 @@
     <footer>
       <div class="flex_1-1">
         <div class="footer">
-          <img
-            src="img/image 52.png"
-            alt=""
-          />
+          <img src="img/image 52.png" alt="" />
         </div>
         <div class="Kontakt">
-          <p>Kontakt</p>
-          <p>Tlf: 12345678</p>
+          <div><p>Kontakt</p></div>
+          <div><p>Tlf: 12345678</p></div>
+          <div></div>
           <p>Mail: 1234@1234</p>
-          <p>Adresse: Guldbergsgade 29N</p>
+          <div><p>Adresse: Guldbergsgade 29N</p></div>
         </div>
       </div>
     </footer>
