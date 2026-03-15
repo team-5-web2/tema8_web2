@@ -112,7 +112,10 @@ figure .produktimg {
   font-family: "Montserrat";
 }
 
-.quantity button {
+.quantity button:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
 }
 
 /* button: læg i kurv */
