@@ -39,7 +39,7 @@ main {
   margin-bottom: 2rem;
 }
 .cart {
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 120px 1fr auto;
