@@ -97,6 +97,24 @@ figure .produktimg {
   padding-left: 1rem;
   font-weight: 300;
 }
+
+/* Quantity */
+
+.quantity {
+  font-family: "Montserrat";
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity p {
+  font-family: "Montserrat";
+}
+
+.quantity button {
+}
+
 /* button: læg i kurv */
 
 .productDetails button {
@@ -145,10 +163,15 @@ figure .produktimg {
     margin-top: 5%;
   }
 
+  .details {
+    margin-top: 30%;
+  }
+
   #productContainer {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
   }
 
   .image {
