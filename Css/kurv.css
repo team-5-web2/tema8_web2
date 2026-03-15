@@ -85,6 +85,12 @@ main {
   justify-content: end;
 }
 
+/* Price */
+
+.price {
+  display: flex;
+}
+
 /* total */
 
 .total {
