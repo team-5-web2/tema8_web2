@@ -119,3 +119,9 @@ main {
   line-height: 150%;
   font-weight: 400;
 }
+
+.checkout:hover {
+  background-color: var(--prime-grey);
+  color: white;
+  border: solid var(--secondary-grey) 1px;
+}
