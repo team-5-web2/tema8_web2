@@ -27,7 +27,7 @@ img {
 }
 
 .grid_1-1-1 {
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
