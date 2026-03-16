@@ -1,5 +1,34 @@
-fetch("https://dummyjson.com/products")
-  .then((res) => res.json())
+"use strict";
+const params = new URLSearchParams(window.location.search);
+const category = params.get("category");
+console.log("products", category);
+
+const productContainer = document.querySelector(".grid_1-1-1");
+fetch(`https://dummyjson.com/products`)
+  .then((response) => response.json())
   .then((data) => {
-    console.log(data);
+    showProducts(data.products);
   });
+
+function showProducts(productsArr) {
+  productContainer.innerHTML = "";
+  productsArr.forEach((product) => {
+    console.log("product.data", product.data);
+
+    productContainer.innerHTML += `        <div class="cardSoldout">
+          <span class="badge">-${product.discountPercentage}%</span>
+          <a href="produkt.html"
+            ><img
+              src="${product.thumbnail}"
+              alt="${product.title}"
+          /></a>
+          <p class="productid">${product.id}</p>
+          <p class="productcategory">${product.category}</p>
+          <p>Produktnavn: ${product.title}</p>
+          <p>Førpris:</p>
+          <span class="oldprice">${Math.round(product.price / (1 - product.discountPercentage / 100))},- DKK</span><br />
+          <span class="newprice">Nypris: ${product.price},- DKK</span>
+          
+        </div>`;
+  });
+}
