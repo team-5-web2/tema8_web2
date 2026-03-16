@@ -4,7 +4,7 @@ const category = params.get("category");
 console.log("products", category);
 
 const productContainer = document.querySelector(".grid_1-1-1");
-fetch(`https://dummyjson.com/products`)
+fetch(`https://dummyjson.com/products/category/${category}`)
   .then((response) => response.json())
   .then((data) => {
     showProducts(data.products);
