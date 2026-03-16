@@ -39,12 +39,7 @@ fetch(`https://dummyjson.com/products/${id}`)
           <p class="price"><span>${product.price}</span>,- DKK</p>
         </div>
         <br />
-        <div class="quantity">
-          <p>Antal:</p>
-          <button>-</button>
-          <span>1</span>
-          <button>+</button>
-        </div>
+       
         <br />
         <button class="buybutton">Læg i kurv</button>
         <div class="productInformation">
