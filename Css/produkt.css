@@ -100,7 +100,7 @@ figure .produktimg {
 
 /* Quantity */
 
-.quantity {
+/*.quantity {
   font-family: "Montserrat";
   display: flex;
   gap: 10px;
@@ -119,7 +119,7 @@ figure .produktimg {
   background-color: var(--prime-grey);
   color: white;
   border: solid var(--secondary-grey) 1px;
-}
+}*/
 
 /* button: læg i kurv */
 
