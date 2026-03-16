@@ -164,11 +164,12 @@ figure .produktimg {
 @media screen and (min-width: 780px) {
   figure {
     display: block;
+    margin: 0 auto;
   }
 
   figure .produktimg {
-    width: 35%;
-    margin-top: 5%;
+    width: 65%;
+    margin-top: 10%;
     margin-bottom: 4rem;
   }
 
@@ -177,12 +178,13 @@ figure .produktimg {
   }
 
   #productContainer {
-    width: 90%;
+    max-width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1 fr;
     margin-top: 4rem;
+    align-content: center;
+    margin: 0 auto;
   }
-
   .image {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
@@ -190,8 +192,9 @@ figure .produktimg {
 
   .productDetails {
     margin: 2rem;
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 4;
     grid-row: 1 / span 2;
+    padding-left: 10%;
   }
 
   .productInformation {
