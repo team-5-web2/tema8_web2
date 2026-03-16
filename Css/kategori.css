@@ -23,12 +23,12 @@ footer {
 }
 
 img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .grid_1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1em;
   margin: 2em;
   font-family: "Montserrat";
@@ -133,4 +133,10 @@ button:active {
 
 .productcategory {
   visibility: hidden;
+}
+
+@media screen and (min-width: 780px) {
+  .grid_1-1-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
