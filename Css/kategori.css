@@ -74,7 +74,7 @@ button:active {
 
 .cardSoldout {
   position: relative;
-  opacity: 0.6;
+  /*opacity: 0.6;*/
   overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ button:active {
   padding: 5px 10px;
 }
 
-/* Udsolgt */
+/* Udsolgt 
 
 .sold {
   position: absolute;
@@ -125,7 +125,7 @@ button:active {
   padding: 8px 50px;
   transform: rotate(45deg);
 }
-
+*/
 /* hidden */
 .productid {
   visibility: hidden;
