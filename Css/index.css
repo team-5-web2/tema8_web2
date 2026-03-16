@@ -72,7 +72,7 @@ header.scrolled {
 /* Hero image */
 
 .hero-image img {
-  width: 100vw;
+  min-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
