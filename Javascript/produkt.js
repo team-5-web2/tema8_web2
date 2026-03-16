@@ -39,8 +39,6 @@ fetch(`https://dummyjson.com/products/${id}`)
           <p class="price"><span>${product.price}</span>,- DKK</p>
         </div>
         <br />
-       
-        <br />
         <button class="buybutton">Læg i kurv</button>
         <div class="productInformation">
           <h2 class="">Beskrivelse af produktet</h2>
