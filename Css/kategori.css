@@ -27,7 +27,7 @@ img {
 }
 
 .grid_1-1-1 {
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
@@ -36,7 +36,7 @@ img {
   font-size: 15px;
   line-height: 150%;
   font-weight: 400;
-  margin-left: 15%;
+  margin: 0 auto;
 }
 
 .grid_1-1-1 p {
