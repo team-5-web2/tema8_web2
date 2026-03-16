@@ -194,9 +194,6 @@ h2 {
 
   .burger {
     display: flex;
-    all: unset;
-    display: inline-block;
-    align-items: right;
   }
 }
 
