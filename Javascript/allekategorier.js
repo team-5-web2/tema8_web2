@@ -16,7 +16,10 @@ categories.forEach((category) => {
             <a href="produkt.html?id=${product.id}">
               <img src="${product.thumbnail}" alt="${product.title}">
             </a>
-            <p>${product.title}</p>
+            <p>${product.title}</p>  <p>Førpris:</p>
+          <span class="oldprice">${Math.round(product.price / (1 - product.discountPercentage / 100))},- DKK</span><br />
+          <span class="newprice">Nypris: ${product.price},- DKK</span>
+          <button class="buybutton">Læg i kurv</button>
           </div>
         `;
       });
