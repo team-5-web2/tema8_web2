@@ -28,7 +28,7 @@ function showProducts(productsArr) {
           <p>Førpris:</p>
           <span class="oldprice">${Math.round(product.price / (1 - product.discountPercentage / 100))},- DKK</span><br />
           <span class="newprice">Nypris: ${product.price},- DKK</span>
-          
+          <button class="buybutton">Læg i kurv</button>
         </div>`;
   });
 }
