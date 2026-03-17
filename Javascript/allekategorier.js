@@ -12,7 +12,7 @@ categories.forEach((category) => {
     .then((data) => {
       data.products.forEach((product) => {
         productContainer.innerHTML += `
-          <div class="cardSoldout">
+          <div class="cardSoldout"><span class="badge">-${product.discountPercentage}%</span>
             <a href="produkt.html?id=${product.id}">
               <img src="${product.thumbnail}" alt="${product.title}">
             </a>
